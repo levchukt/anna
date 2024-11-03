@@ -3,12 +3,17 @@ async function getProducts(){
     let products = await response.json()
     return products
 }
+async function getProductsWomen(){
+    let response = await fetch("women.json")
+    let products = await response.json()
+    return products
+}
 
 function getCardHTML (product){
     let productData = JSON.stringify(product)
     return`
     <div class="one_item">
-            <img src="img/${product.img}" alt="">
+            <img src="img/${product.image}" alt="">
             <p class="name">${product.title}</p>
             <p class="price">${product.price}</p>
             <a href="" class="buy">Buy</a>
@@ -21,7 +26,24 @@ function buyitem(){
 }
 
 getProducts().then(function(products){
-    let productsList = document.querySelector('.items')
+    let productsList = document.querySelector('.items_men')
+    if (productsList){
+       products.forEach(product =>{
+        productsList.innerHTML += getCardHTML(product)
+       })
+    }
+    let buyButtons = document.querySelectorAll('.buy')
+    if ( buyButtons ){
+        buyButtons.forEach(button =>{
+            button.addEventListener('click', buyitem) 
+        })
+            
+        }
+    }
+)
+
+getProductsWomen().then(function(products){
+    let productsList = document.querySelector('.items_women')
     if (productsList){
        products.forEach(product =>{
         productsList.innerHTML += getCardHTML(product)

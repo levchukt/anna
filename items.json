@@ -2,43 +2,52 @@
     {
 
         "title": "Oversized T-shirt with a print",
-        "price": 25,
-        "img": "item1.avif"
+        "price": "25$",
+        "image": "item1.avif"
     },
     {
         "title": "T-shirt with a print",
-        "price": 30,
-        "img": "ch.avif"
+        "price": "30$",
+        "image": "ch.avif"
     },
     {
         "title": "T-shirt",
-        "price": 27,
-        "img": "item2.avif"
+        "price": "27$",
+        "image": "item2.avif"
     },
     {
         "title": "Beige cargo pants",
-        "price": 23,
-        "img": "stem.3.avif"
+        "price": "23$",
+        "image": "stem.3.avif"
     },
     {
         "title": "Loose men's pants",
-        "price": 28,
-        "img": "item.1.avif"
+        "price": "28$",
+        "image": "item.1.avif"
     },
     {
         "title": "Black wide pants with stripes",
-        "price": 32,
-        "img": "stem.4.jpeg"
+        "price": "32$",
+        "image": "stem.4.jpeg"
     },
     {
         "title": "Men's sweatshirt",
-        "price": 50,
-        "img": "item33.avif"
+        "price": "50$",
+        "image": "item33.avif"
     },
     {
-        "title": "Men's sweatshirt",
-        "price": 45,
-        "img": "item33.avif"
+        "title": "Warm skinny",
+        "price": "45$",
+        "image": "1345.avif"
+    },
+    {
+        "title": "Sweater with a lock",
+        "price": "52$",
+        "image":"111.avif"
     }
+    
+]
 
-    ]
+
+
+    

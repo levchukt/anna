@@ -20,6 +20,10 @@ justify-content: space-around;
 
 }
 
+.one_item img{
+    height: 380px;
+}
+
 .mebu_link{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -60,7 +64,14 @@ justify-content: space-around;
     margin-bottom: 50px;
 }
 
-.items{
+.items_men{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.items_women{
     display: flex;
     justify-content: space-around;
     align-items: center;
